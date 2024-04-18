@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background: linear-gradient(90deg, rgb(12, 10, 35) 0%, rgb(43, 47, 84) 35%, rgb(12, 124, 244) 100%);
+    font-family: 'Poppins', sans-serif;
+
+}
+.login-logo{
+  display: flex; 
+  justify-content: center;
+}
+.login-img{
+  max-width: 40%;
+  height: auto; 
+}
+
+form{
+    border-radius: 20px;
+    margin-top: 150px !important;
+    width: 50% !important;
+    background-color: white !important;
+    padding: 50px;
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background: rgb(12, 10, 35);
+    
+}
+
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    }
+ h4{
+    font-size: 2rem !important;
+    font-weight: 700;
+ }  
+ .form-label{
+    font-weight: 800 !important;
+ }
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100% !important;
+    }
+  }
+
+.login-error{
+    color: red;
+}
